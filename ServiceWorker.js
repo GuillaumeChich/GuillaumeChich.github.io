@@ -1,9 +1,9 @@
 const cacheName = "DefaultCompany-traine-1.0";
 const contentToCache = [
-    "Build/Build.loader.js",
-    "Build/Build.framework.js",
-    "Build/Build.data",
-    "Build/Build.wasm",
+    "Build/Build 2 Electric Boogaloo.loader.js",
+    "Build/Build 2 Electric Boogaloo.framework.js",
+    "Build/Build 2 Electric Boogaloo.data",
+    "Build/Build 2 Electric Boogaloo.wasm",
     "TemplateData/style.css"
 
 ];
