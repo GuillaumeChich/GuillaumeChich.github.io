@@ -1,9 +1,9 @@
 const cacheName = "DefaultCompany-traine-1.0";
 const contentToCache = [
-    "Build/Builds.loader.js",
-    "Build/Builds.framework.js",
-    "Build/Builds.data",
-    "Build/Builds.wasm",
+    "Build/GuillaumeChich.github.io.loader.js",
+    "Build/GuillaumeChich.github.io.framework.js",
+    "Build/GuillaumeChich.github.io.data",
+    "Build/GuillaumeChich.github.io.wasm",
     "TemplateData/style.css"
 
 ];
