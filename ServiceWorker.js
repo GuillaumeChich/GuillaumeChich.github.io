@@ -19,6 +19,9 @@ self.addEventListener('install', function (e) {
 });
 
 self.addEventListener('fetch', function (e) {
+    if (e.request.url.includes('.mp4') || e.request.url.includes('.webm')) {
+        return;
+    }
     e.respondWith((async function () {
       let response = await caches.match(e.request);
       console.log(`[Service Worker] Fetching resource: ${e.request.url}`);
