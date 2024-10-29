@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity Web Player | traine</title>
+    <title>Unity Web Player | Traine</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <link rel="manifest" href="manifest.webmanifest">
@@ -64,9 +64,9 @@
         frameworkUrl: buildUrl + "/traineWebBuild.framework.js",
         codeUrl: buildUrl + "/traineWebBuild.wasm",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "traine",
-        productVersion: "1.0",
+        companyName: "Link Hospitality",
+        productName: "Traine",
+        productVersion: "1.1",
         showBanner: unityShowBanner,
       };
 
@@ -85,6 +85,7 @@
         document.getElementsByTagName('head')[0].appendChild(meta);
       }
 
+      canvas.style.background = "url('" + buildUrl + "/traineWebBuild.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");

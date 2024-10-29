@@ -1,13 +1,13 @@
 {
-    "name": "traine",
-    "short_name": "traine",
+    "name": "Traine",
+    "short_name": "Traine",
     "start_url": "index.html",
     "display": "fullscreen",
-    "background_color": "#1F1F20",
-    "theme_color": "#000",
+    "background_color": "#FFFFFF",
+    "theme_color": "#fff",
     "description": "",
     "icons": [{
-      "src": "TemplateData/icons/unity-logo-dark.png",
+      "src": "TemplateData/icons/unity-logo-light.png",
       "sizes": "144x144",
       "type": "image/png",
       "purpose": "any maskable"
