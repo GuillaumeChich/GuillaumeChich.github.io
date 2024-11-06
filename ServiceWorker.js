@@ -1,9 +1,9 @@
-const cacheName = "Link Hospitality-Traine-1.1";
+const cacheName = "Link Hospitality-Traine-1.23";
 const contentToCache = [
-    "Build/v1.16.loader.js",
-    "Build/v1.16.framework.js",
-    "Build/v1.16.data",
-    "Build/v1.16.wasm",
+    "Build/181135981781c514abba1712f7b93cae.loader.js",
+    "Build/57454dfc7fc58f9b15e94192d99b2648.framework.js",
+    "Build/beb705dda939d3bd1af7db254a31cf45.data",
+    "Build/9e7547bbcc4c571c876676ff2c618194.wasm",
     "TemplateData/style.css"
 
 ];
@@ -23,7 +23,6 @@ self.addEventListener('fetch', function (e) {
         return;
     }
     e.respondWith((async function () {
-        
       let response = await caches.match(e.request);
       console.log(`[Service Worker] Fetching resource: ${e.request.url}`);
       if (response) { return response; }
